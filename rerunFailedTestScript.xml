@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ReRunFailedscript.TestClass6"/>
+      <class name="ReRunFailedscript.TestClass1"/>
+      <class name="ReRunFailedscript.TestClass4"/>
+      <class name="ReRunFailedscript.TestClass5"/>
+      <class name="ReRunFailedscript.TestClass2"/>
+      <class name="ReRunFailedscript.TestClass3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!--add assert in test case, convert to xml, run u can see failed test cas
+refresh project ->test-output->open testng-failed.xml
+update the testcase and re run testng-failed.xml -->
